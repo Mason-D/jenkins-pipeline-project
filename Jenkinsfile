@@ -22,7 +22,7 @@ pipeline {
 
         stage('Security Scan') {
             steps {
-                echo 'Running Security Scan using Snyk...'
+                echo 'Running Security Scan using OWASP...'
             }
         }
 
